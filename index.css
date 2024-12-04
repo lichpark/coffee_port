@@ -1,0 +1,203 @@
+body {
+  background-color: #030514;
+  color: white;
+}
+header {
+  width: 100vw;
+}
+nav {
+  width: 100%;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.header_etc {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+main {
+  width: 100%;
+}
+.container {
+  max-width: 1046px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sec1 {
+  position: relative;
+  height: 60vh;
+}
+.sec1__h2 {
+  font-size: 10rem;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.img1 {
+  position: absolute;
+  left: auto;
+  top: -25%;
+  right: 16%;
+  /* z-index: -2; */
+  width: 16vw;
+}
+.sec1__p {
+  width: 40%;
+  font-size: 2rem;
+  margin-left: 60%;
+}
+.sec2 {
+  width: 100%;
+  height: 100vh;
+}
+
+.sec2__div {
+  width: 45%;
+  height: 40vh;
+  margin: 0 auto;
+  position: relative;
+  font-size: 8rem;
+  font-weight: bold;
+}
+.sec2_text {
+  opacity: 0;
+}
+.leftoptext {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rightbottext {
+  position: absolute;
+  top: 25%;
+  right: 0;
+}
+.entertext {
+  position: absolute;
+  bottom: 0;
+  color: #030514;
+  -webkit-text-stroke: 1px #fff;
+}
+.sec3 {
+  height: 100vh;
+}
+
+.sec3 .headline {
+  color: #00f1ec;
+  font-size: 16px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.inner {
+  max-width: 1198px;
+  margin: 0 auto;
+}
+
+.sec3 .service-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.sec3 .service-list .item {
+  margin-right: 45px;
+  color: #fff;
+  font-size: 56px;
+  line-height: 68px;
+  font-weight: 300;
+}
+.sec4 {
+  height: 100vh;
+}
+.sec4 .brand-area .brand-box {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+  width: 100%;
+  gap: 16px;
+  opacity: 0;
+}
+
+.sec4 .brand-area .brand-box img {
+  width: 100px;
+  flex: 1;
+}
+
+.sec5 .works-list {
+  display: flex;
+}
+
+.sec5 .works-list .works-item {
+  position: relative;
+  margin-right: 40px;
+  width: 40%;
+}
+
+.sec5 .awards-area .web-awards img {
+  width: 112px;
+}
+
+.sec5 .works-list .works-item .txt-box {
+  position: absolute;
+  top: 15px;
+  left: 32px;
+  color: #fff;
+}
+img {
+  max-width: 100%;
+}
+.sec6 {
+  width: 100%;
+  height: 3200px;
+  padding-top: 100px;
+}
+.videoinner {
+  width: 100%;
+  height: 100%;
+}
+.relative {
+  position: relative;
+}
+.sec6__div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 2%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sec6__div__span_title {
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 1;
+  transform: translateY(0); /* 초기 상태 */
+  transition: all 0.5s ease;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.sec6__div__span {
+  font-size: 24px;
+  transform: scale(0.8); /* 작게 시작 */
+  transform: translate(0%, -50%) scale(0.8);
+  white-space: nowrap; /* 줄바꿈 방지 */
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+video {
+  width: 1046px;
+  height: 3200px;
+  object-fit: cover;
+}
